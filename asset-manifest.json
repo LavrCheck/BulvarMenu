@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BulvarMenu/static/css/main.807a9fc1.css",
+    "main.js": "/BulvarMenu/static/js/main.fa67f709.js",
+    "static/js/787.973dfe91.chunk.js": "/BulvarMenu/static/js/787.973dfe91.chunk.js",
+    "index.html": "/BulvarMenu/index.html",
+    "static/media/arrow.svg": "/BulvarMenu/static/media/arrow.d9a83733b951246b98dd96bc28828c35.svg",
+    "main.807a9fc1.css.map": "/BulvarMenu/static/css/main.807a9fc1.css.map",
+    "main.fa67f709.js.map": "/BulvarMenu/static/js/main.fa67f709.js.map",
+    "787.973dfe91.chunk.js.map": "/BulvarMenu/static/js/787.973dfe91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.807a9fc1.css",
+    "static/js/main.fa67f709.js"
+  ]
+}
