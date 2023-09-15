@@ -1,5 +1,5 @@
 {
-  "homepage": "http://LavrCheck.github.io/BulvarMenu",
+  "homepage": "https://lavrcheck.github.io/BulvarMenu",
   "name": "bulvar_menu",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "builds": "npm run build",
     "predeploy": "npm run builds",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
