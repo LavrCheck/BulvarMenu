@@ -52,6 +52,12 @@ function App() {
     {name: 'Сливочный лосось', composition: '300гр', price: '480'},
   ]
 
+  let Desserts = [
+    {name: 'Брауни с мороженым', composition: '170гр', price: '280'},
+    {name: 'Чизкейк классический', composition: '120гр', price: '250'},
+    {name: 'Мороженое', composition: '80гр', price: '120'},
+  ]
+
   return (
     <div className="App">
       <div className='content'>
@@ -67,6 +73,8 @@ function App() {
           { asia.map((x) => <MenuUnit name={x.name} composition={x.composition} price={x.price}/>)}
         <p className='header'>Горячие роллы</p>
           { hotRols.map((x) => <MenuUnit name={x.name} composition={x.composition} price={x.price}/>)}
+        <p className='header'>Десерты</p>
+          { Desserts.map( (x) => <MenuUnit name={x.name} composition={x.composition} price={x.price} />)}
       </div>
     </div>
   );
